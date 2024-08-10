@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    object-fit: cover;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 1em 3em 0em;
+}
+.h{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 5px 30.003px;
+    margin:  0px 0px -2px;
+    border-bottom-color: rgb(221, 219, 219);
+    border-bottom-style: solid;
+}
+.h nav{
+    margin: 50px 30px;
+    margin-bottom: 0%;;
+    padding: 0%;
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+    font-size: 87%;
+    color: #1e1e1e!important;
+    transition: color 0.3s; /* Adding transition for smooth effect */
+}
+#i{
+    margin: 1.5%;
+}
+#i button{
+    border: 2px solid;
+    padding: 15px;
+    background-color: #f2711c;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0.25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    border-radius: 2em;
+    max-height: 2.5em;
+    font-family: 'Montserrat Alternates';
+}
+#first{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#cen{
+    width: 60em;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+#second{
+    font-family: 'Amatic SC';
+    font-size: 3.2em;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 29px;
+    position: relative;
+    top: -10rem;
+}
+#earlyc1{
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    font-size: 87%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: auto 15em;
+    text-align: justify;
+    position: relative;
+    top: -10rem;
+}
+#earlyc2{
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    font-size: 87%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: auto 15em;
+    text-align: justify;
+    position: relative;
+    top: -10rem;
+}
+#right{
+    border-style: none;
+    /* object-fit: cover; */
+    width: 200px !important;
+    height: 10rem;
+    position: relative;
+    top: -28rem;
+    margin-left: 82rem;
+}
+.mid{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 7.6em;
+    gap: 17em;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    position: relative;
+    top: -10rem;
+}
+.mid h4{
+    color: #f37335;
+    font-size: 1.9em;
+    margin-bottom: 1em;
+    font-weight: 900;
+}
+.mid1{
+    width: 25%;
+    margin-left: 10em;
+}
+.mid2{
+    width: 25%;
+    margin-right: 10em;
+}
+.mid p{
+    font-size: 87%;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.kid{
+    position: relative;
+    top: -11rem;
+    margin-left: 6rem;
+}
+.brick{
+    position: relative;
+    top: -18rem;
+    margin-left: 60rem;
+}
+.commit h2{
+    font-family: 'Amatic SC';
+    font-size: 3.2em;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 29px;
+    position: relative;
+    top: -15rem;
+    color: #f2711c;
+}
+.commit p{
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    font-size: 87%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: auto 15em;
+    text-align: center;
+    position: relative;
+    top: -13rem;
+}
+.dot{
+    border-style: none;
+    object-fit: cover;
+    width: 200px !important;
+    height: 10rem;
+    position: relative;              /*     here i have facing issue in overflow */
+    top: -28rem;
+    margin-left: 45rem;
+}
+.num1{
+    position: relative;
+    margin-left: 14em;
+    top: -21em;
+}
+.num2{
+    position: relative;
+    margin-left: 14em;
+    top: -21em;
+}
+.end h2{
+    font-family: 'Amatic SC';
+    font-size: 3.2em;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 29px;
+    position: relative;
+    top: -45rem;
+    color: #f2711c;
+}
+.end p{
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    font-size: 87%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: auto 15em;
+    text-align: center;
+    position: relative;
+    top: -43rem;
+}
+.pin{
+    position: relative;
+    top: -25em;
+}
+nav:active{
+    color: #f2711c;
+    cursor: pointer;
+}
